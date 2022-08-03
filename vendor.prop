@@ -15,3 +15,7 @@ ro.vendor.hw.nfc=st
 # Radio
 ro.telephony.default_network=27,27
 ril.subscription.types=RUIM
+
+# Telephony
+# Disable handling audio direction changes on IMS calls.
+ro.telephony.handle_audio_direction_changes_between_call_state_changes=false
