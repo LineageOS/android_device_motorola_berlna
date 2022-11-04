@@ -19,4 +19,4 @@ on post-fs-data
 on post-fs-data
 # service-ets
 on property:ro.vendor.hw.fps=false
-    stop ets_hal
+    stop vendor.ets_hal
