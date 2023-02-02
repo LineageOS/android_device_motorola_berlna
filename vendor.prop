@@ -12,8 +12,5 @@ vendor.mm.en.sec.smoothstreaming=false
 # Camera
 persist.vendor.camera.physical.num=4
 
-# NFC
-ro.vendor.hw.nfc=st
-
 # Radio
 ro.telephony.default_network=27,27
