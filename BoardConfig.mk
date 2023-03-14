@@ -28,6 +28,7 @@ DEVICE_MANIFEST_YUPIK_FILES += $(DEVICE_PATH)/manifest_berlna.xml
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=berlna
 TARGET_KERNEL_CONFIG += vendor/lineage_berlna.config
+BOARD_RAMDISK_USE_LZ4 := false
 
 # Kernel Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
