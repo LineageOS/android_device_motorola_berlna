@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70980b3d_2cd585c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2023-08-09T15:13:22Z",
+      "side": 1,
+      "message": "Chain resolves Notification LED blinking behavior",
+      "revId": "4ddcf75dbd3b324914e3ee0ecd5e6a852baa470a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
