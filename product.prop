@@ -16,7 +16,6 @@ ro.opa.device_model_id=motorola-berlna
 # Moto
 persist.mot_bt.aptx_cert=true
 ro.lenovo.single_hand=1
-ro.mot.build.customerid=global
 ro.support_one_handed_mode=true
 ro.vendor.paramfile.device=berlna
 ro.vendor.paramfile.special_device=berlna_global
