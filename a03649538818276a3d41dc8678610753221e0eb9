@@ -16,6 +16,23 @@
       "message": "prop files notice change?\n\nSecurity patch?",
       "revId": "a03649538818276a3d41dc8678610753221e0eb9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e164d3a3_ce231b77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-11-03T16:49:06Z",
+      "side": 1,
+      "message": "oh, nvm, properties only.",
+      "revId": "a03649538818276a3d41dc8678610753221e0eb9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
