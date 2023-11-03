@@ -33,6 +33,24 @@
       "message": "oh, nvm, properties only.",
       "revId": "a03649538818276a3d41dc8678610753221e0eb9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1beea05_119ffe02",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2023-11-03T19:37:54Z",
+      "side": 1,
+      "message": "matches Security Patch.",
+      "parentUuid": "5c71079a_5039b2c0",
+      "revId": "a03649538818276a3d41dc8678610753221e0eb9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
