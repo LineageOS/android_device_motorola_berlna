@@ -77,24 +77,3 @@ on property:sys.boot_completed=1
 
 on property:persist.vendor.paramfile.parse_panel=1
     write /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_parse_para "1"
-
-service vendor.ident-fps-overlay-sh /vendor/bin/init.oem.fingerprint.overlay.sh
-    class core
-    user root
-    group drmrpc system
-    oneshot
-    disabled
-
-service egis_ident /vendor/bin/egis_ident
-    class late_start
-    user system
-    group system
-    oneshot
-    disabled
-
-service gf_ident /vendor/bin/goodix_ident
-    class late_start
-    user system
-    group system input uhid
-    oneshot
-    disabled
