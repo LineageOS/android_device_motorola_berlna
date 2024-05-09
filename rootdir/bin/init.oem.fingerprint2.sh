@@ -35,14 +35,10 @@ function set_permissions() {
     fi
 }
 
-function load_module() {
-    modprobe -a -d /vendor/lib/modules "$1"
-}
-
 function start_fpsensor() {
     if [ "$fps_id" == "chipone" ]
     then
-        load_module fpsensor_spi_tee.ko
+        insmod /vendor/lib/modules/fpsensor_spi_tee.ko
         sleep 0.6
         set_permissions
         sleep 0.4
@@ -50,7 +46,7 @@ function start_fpsensor() {
         sleep 1
     elif [ "$fps_id" == "fpc" ]
     then
-        load_module fpc1020_mmi.ko
+        insmod /vendor/lib/modules/fpc1020_mmi.ko
         sleep 0.6
         set_permissions
         sleep 0.4
@@ -58,7 +54,7 @@ function start_fpsensor() {
         sleep 1
     elif [ "$fps_id" == "silead" ]
     then
-        load_module silead_fps_mmi.ko
+        insmod /vendor/lib/modules/silead_fps_mmi.ko
         sleep 0.6
         set_permissions
         sleep 0.4
@@ -66,7 +62,7 @@ function start_fpsensor() {
         sleep 1
     elif [ "$fps_id" == "goodix" ]
     then
-        load_module goodix_fod_mmi.ko
+        insmod /vendor/lib/modules/goodix_fod_mmi.ko
         sleep 0.6
         set_permissions
         sleep 0.4
@@ -74,16 +70,16 @@ function start_fpsensor() {
         sleep 1
     elif [ "$fps_id" == "focal" ]
     then
-        load_module focal_fps_mmi.ko
+        insmod /vendor/lib/modules/focal_fps_mmi.ko
         sleep 0.6
         set_permissions
         sleep 0.4
         start vendor.focal_hal
         sleep 1
     else
-        load_module ets_fps_mmi.ko
-        load_module rbs_fps_mmi.ko
-        load_module rbs_fod_mmi.ko
+        insmod /vendor/lib/modules/ets_fps_mmi.ko
+        insmod /vendor/lib/modules/rbs_fps_mmi.ko
+        insmod /vendor/lib/modules/rbs_fod_mmi.ko
         sleep 0.6
         set_permissions
         sleep 0.4
