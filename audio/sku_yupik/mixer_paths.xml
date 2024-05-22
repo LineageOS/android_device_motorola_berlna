@@ -515,6 +515,11 @@
         <ctl name="EC Reference Channels" value="One"/>
     </path>
 
+    <path name="echo-reference-voip handset">
+        <ctl name="AUDIO_REF_EC_UL10 MUX" value="RX_CDC_DMA_RX_0" />
+        <ctl name="EC Reference Channels" value="One"/>
+    </path>
+
     <path name="echo-reference-voip headphones">
         <ctl name="AUDIO_REF_EC_UL10 MUX" value="RX_CDC_DMA_RX_0" />
         <ctl name="EC Reference Channels" value="Two"/>
@@ -1124,7 +1129,7 @@
         <path name="hfp-sco headphones" />
     </path>
 
-    <path name="compress-voip-call">
+    <path name="compress-voip-call speaker">
         <ctl name="SEN_MI2S_RX_Voice Mixer Voip" value="1" />
         <ctl name="Voip_Tx Mixer TX_CDC_DMA_TX_3_Voip" value="1" />
     </path>
@@ -1791,6 +1796,25 @@
 
     <path name="three-mic">
         <path name="camcorder-mic-audio-zoom" />
+    </path>
+
+    <path name="dmic-nn">
+        <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
+        <!-- the bottom mic as left channel -->
+        <ctl name="ADC2 Volume" value="12" />
+        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1"/>
+        <ctl name="TX DEC0 MUX" value="SWR_MIC"/>
+        <ctl name="TX SMIC MUX0" value="SWR_MIC4"/>
+        <ctl name="ADC2 ChMap" value="SWRM_TX2_CH1"/>
+        <ctl name="ADC2_MIXER Switch" value="1"/>
+        <ctl name="ADC2 MUX" value="INP3"/>
+        <!-- the top mic as right channel -->
+        <ctl name="ADC1 Volume" value="8" />
+        <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
+        <ctl name="TX DEC1 MUX" value="SWR_MIC" />
+        <ctl name="TX SMIC MUX1" value="SWR_MIC0" />
+        <ctl name="ADC1 ChMap" value="SWRM_TX1_CH1" />
+        <ctl name="ADC1_MIXER Switch" value="1" />
     </path>
 
     <path name="camcorder-mic-narrator">
