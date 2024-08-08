@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
     FrameworksResBerlna \
     LineageSystemUIBerlna \
     SettingsResBerlna \
-    SettingsProviderResBerlna \
     SystemUIResBerlna \
     WifiResBerlna
 
