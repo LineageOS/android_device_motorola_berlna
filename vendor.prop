@@ -9,9 +9,6 @@ persist.vendor.audio_fx.waves.processing_nx=true
 persist.vendor.audio_fx.waves.systrace=true
 vendor.mm.en.sec.smoothstreaming=false
 
-# Bluetooth
-bluetooth.device.default_name=motorola edge (2021)
-
 # Camera
 persist.vendor.camera.physical.num=4
 
