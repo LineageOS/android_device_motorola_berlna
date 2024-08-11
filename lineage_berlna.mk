@@ -34,6 +34,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=berlna_global \
-    PRIVATE_BUILD_DESC="berlna_global-user 13 T1RMS33.1-110-17-10 177d6e-b80376 release-keys"
+    PRIVATE_BUILD_DESC="berlna_global-user 13 T1RMS33.1-110-17-12 f7bcd-35c05 release-keys"
 
-BUILD_FINGERPRINT := motorola/berlna_global/berlna:13/T1RMS33.1-110-17-10/177d6e-b80376:user/release-keys
+BUILD_FINGERPRINT := motorola/berlna_global/berlna:13/T1RMS33.1-110-17-12/f7bcd-35c05:user/release-keys

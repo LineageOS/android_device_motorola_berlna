@@ -1,4 +1,4 @@
-# Firmware - from berlna_global-user 13 T1RMS33.1-110-17-10 177d6e-b80376 release-keys - RETAIL variant - (factory image).
+# Firmware - from berlna_global-user 13 T1RMS33.1-110-17-12 f7bcd-35c05 release-keys - RETUS variant - (factory image).
 
 BTFM.bin:bluetooth.img;AB
 dspso.bin:dsp.img;AB
