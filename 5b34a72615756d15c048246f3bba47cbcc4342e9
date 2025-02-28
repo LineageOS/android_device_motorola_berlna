@@ -16,6 +16,24 @@
       "message": "shouldn\u0027t that be org.lineageos.platform?",
       "revId": "5b34a72615756d15c048246f3bba47cbcc4342e9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "511f369a_9275c0ca",
+        "filename": "resource-overlay/device/LineagePlatform/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2025-02-28T14:41:31Z",
+      "side": 1,
+      "message": "I actually had run into this myself using xpeng as example here: 399629\nThe package name is just l\u0000i\u0000n\u0000e\u0000a\u0000g\u0000e\u0000o\u0000s\u0000.\u0000p\u0000l\u0000a\u0000t\u0000f\u0000o\u0000r\u0000m (or was at the time)",
+      "parentUuid": "af7a3f5d_ae1de1b2",
+      "revId": "5b34a72615756d15c048246f3bba47cbcc4342e9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
