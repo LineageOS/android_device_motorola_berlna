@@ -23,7 +23,6 @@ $(call inherit-product, device/motorola/sm7325-common/common.mk)
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
-    LineagePlatformDevice \
     LineageSystemUIDevice \
     SettingsResDevice \
     SystemUIResDevice \
@@ -64,10 +63,6 @@ PRODUCT_PACKAGES += \
 # Lineage Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.berlna
-
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.lights-service.lineage
 
 # NFC
 PRODUCT_PACKAGES += \
