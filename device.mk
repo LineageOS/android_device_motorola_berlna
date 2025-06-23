@@ -58,7 +58,6 @@ $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/bin/*.sh),\
 
 # Init (recovery)
 PRODUCT_PACKAGES += \
-    init.recovery.berlna.rc \
     load_touch.sh.recovery
 
 # Lineage Touch
@@ -78,6 +77,10 @@ PRODUCT_PACKAGES += \
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hcef.xml
+
+# Recovery
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/etc/init.recovery.berlna.rc:recovery/root/init.recovery.berlna.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
