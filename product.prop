@@ -25,7 +25,6 @@ ro.vendor.paramfile.special_device=berlna_global
 persist.radio.call_type=1
 persist.radio.mode_pref_nv10=1
 persist.vendor.lte.pco_supported=true
-ril.subscription.types=RUIM
 ro.vzw.sys.singlesku=false
 vzw.sys.basicphone=false
 vzw.sys.cdmaless=true

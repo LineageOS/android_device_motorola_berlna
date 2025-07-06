@@ -1,2 +1,5 @@
 # Display
 sys.brightness.disable_gamma_conversion=true
+
+# Telephony
+ril.subscription.types=RUIM
