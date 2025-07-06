@@ -16,6 +16,24 @@
       "message": "Is this really neeeded on a modern device?",
       "revId": "2feb17afcd77cd6773005c63a50e47b89d09a733",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84ebd955_93ee66bf",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2025-07-06T23:24:14Z",
+      "side": 0,
+      "message": "Had mixed reviews, seemed to help resolve the issue with outgoing calls having no ring.",
+      "parentUuid": "22ce6f12_687ffadb",
+      "revId": "2feb17afcd77cd6773005c63a50e47b89d09a733",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
