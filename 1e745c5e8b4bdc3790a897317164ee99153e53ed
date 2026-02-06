@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46dd9a19_24d5b7e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-02-06T04:54:24Z",
+      "side": 1,
+      "message": "As mentioned, you need to use soong to disable udfps checking since berl* is sdfps https://review.lineageos.org/c/LineageOS/android_device_motorola_xpeng/+/472945/2/device.mk#82",
+      "revId": "1e745c5e8b4bdc3790a897317164ee99153e53ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
