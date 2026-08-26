@@ -1,14 +1,7 @@
 # Audio
 vendor.mm.enable.qcom_parser=70178
 media.stagefright.thumbnail.prefer_hw_codecs=false
-ro.vendor.audio.crystal_talk.supported=true
 ro.vendor.audio.game_mic.supported=true
-audio.sys.noisy.broadcast.delay=500
-audio.sys.mute.latency.factor=2
-audio.sys.routing.latency=0
-audio.sys.offload.pstimeout.secs=3
-ro.af.client_heap_size_kbyte=7168
-media.stagefright.audio.deep=false
 
 # Google
 ro.opa.device_model_id=motorola-berlna
@@ -23,7 +16,6 @@ ro.vendor.paramfile.special_device=berlna_global
 # Radio
 persist.radio.call_type=1
 persist.radio.mode_pref_nv10=1
-persist.vendor.lte.pco_supported=true
 ro.vendor.radio.imei.sv=54
 ro.vzw.sys.singlesku=false
 vzw.sys.basicphone=false
